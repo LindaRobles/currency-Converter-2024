@@ -1,13 +1,14 @@
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
-import com.josemina.exchange.utils.HttpClientUtil;
+import com.currency.exchange.utils.HttpClientUtil;
+import com.ApiKey;
 
 import java.util.Scanner;
 import java.util.regex.Pattern;
 
 public class CurrencyConverter {
+    private static final String API_KEY = ApiKey.KEY;
 
-    private static final String API_KEY = "2dec703853b54888541bea2f";
     private static final String BASE_URL = "https://v6.exchangerate-api.com/v6/" + API_KEY + "/latest/";
 
     private static final String AVAILABLE_CURRENCIES = """

@@ -36,3 +36,6 @@ build/
 
 ### Mac OS ###
 .DS_Store
+
+# Ignorar la clase que contiene la API key
+ApiKey.java
