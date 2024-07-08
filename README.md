@@ -20,3 +20,6 @@ The main goal of this project was to learn how to integrate an API into a Java p
 
 - **Invalid Currency Code:** If you enter an invalid currency code (not exactly three uppercase letters), the application will prompt you to enter a valid code.
 - **API Errors:** If there is an issue fetching the exchange rate, the application will display an error message.
+
+- 
+![Badge-Conversor](https://github.com/LindaRobles/currency-Converter-2024/assets/132003177/4cb27628-3b5b-4c9e-b90e-2fd1024ea7ee)
